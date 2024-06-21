@@ -1,0 +1,30 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Sensitive files
+wp-config.php
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore wp-content/uploads directory (optional)
+wp-content/uploads/
+
+# Ignore all plugins except the ones you are working on
+wp-content/plugins/*
+
+# Allow tracking of specific plugin(s)
+!wp-content/plugins/your-plugin/
+
+# Ignore themes except the ones you are working on
+wp-content/themes/*
+
+# Allow tracking of specific theme(s)
+!wp-content/themes/your-theme/
